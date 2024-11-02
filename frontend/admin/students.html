@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="admindash.css" />
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css" />
+    <title>Space College</title>
+  </head>
+  <html>
+    <body>
+        <div id="viewport">
+            <!-- Sidebar -->
+
+                <div id="sidebar">
+                  <header>
+                    <a href="#">Space College</a>
+                  </header>
+                  <ul class="nav">
+                    <li>
+                      <a href="admindash.html">
+                        <i class="fa fa-home"></i> Dashboard
+                      </a>
+                    </li>
+                    <li>
+                      <a href="students.html">
+                        <i class="fa fa-user"></i> Students
+                      </a>
+                    </li>
+                    <li>
+                      <a href="courses.html">
+                        <i class="fa fa-graduation-cap"></i> Courses
+                      </a>
+                    </li>
+                    <li>
+                      <a href="adminlogin.html">
+                        <i class="fa fa-power-off"></i> logout
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+            <!-- Content -->
+            <div id="content">
+                <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4 px-4">  
+                    <div class="container-fluid">  
+                        <div class="d-flex align-items-center">  
+                            <i class="fas fa-align-left primary-text fs4 me-3" id="menu-toggle"></i>  
+                            <h2 class="fs-2 m-0">Students</h2>  
+                        </div>  
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+                            <span class="navbar-toggler-icon"></span>  
+                        </button>  
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">  
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">  
+                                <li class="nav-item dropdown">  
+                                    <a href="#" class="nav-link dropdown-toggle second-text fw-bold" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">  
+                                        <i class="fas fa-user me-2"></i>adesewa  
+                                    </a>  
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">  
+                                        <li><a href="admin_profile.html" class="dropdown-item">Profile</a></li>  
+                                    </ul>  
+                                </li>  
+                            </ul>  
+                        </div>  
+                    </div>  
+                </nav>
+            </div>
+              <div class="container-fluid">
+                <div class="container-fluid px-4">
+                    <div class="row g-3 my-2">
+                        <div class="col-md-6">
+                            <div class="p-3 shadow-sm  align-items-center rounded">
+                                <h3>Space College Students Log</h3>
+                                <h6>Your Child, Our Priority</h6>
+                                <p>Our space college offers cutting-edge programs, state-of-the-art facilities, and a dedicated faculty to inspire the next generation of astronauts, scientists, and engineers.</p>
+                               
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3  d-flex justify-content-around align-items-center rounded">
+                               <img width="290px" src="../assets/images/spaceimg6.jpg" alt="spaceimage">
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                    
+                    <div class="row my-5">
+                        <h3 class="fs-4 mb-3">All STUDENTS<i class="fas fa-user primary-text rounded-full secondary-bg p-3"></i></h3>
+                        <div class="col">  
+                            <div class="table-responsive">  
+                                <table class="table table-striped bg-white py-5 shadow">  
+                                    <thead style="background:#ec994f;">  
+                                        <tr>  
+                                            <th scope="col">S/N</th>  
+                                            <th scope="col">Student Name</th>  
+                                            <th scope="col">Student Email</th>  
+                                            <th scope="col">Action</th>  
+                                        </tr>  
+                                    </thead>  
+                                    <tbody>  
+                                        <!-- Rows will be appended here by JavaScript -->  
+                                    </tbody>  
+                                </table>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="footer2">  
+                  <div class="container">  
+                      <div class="row">  
+                          <div class="col-md-6 widget">  
+                              <div class="widget-body">  
+                                  <p class="simplenav">  
+                                      <a href="admindash.html">Dashboard</a>   
+                                      <a href="students.html">Students</a>   
+                                      <a href="courses.html">Courses</a>   
+                                      <a href="adminlogin.html">Logout</a>  
+                                      <b><a href="../index.html">Home</a></b> 
+                                  </p>  
+                              </div>  
+                          </div>  
+                          <div class="col-md-6 widget">  
+                              <div class="widget-body">  
+                                  <p class="text-right" style="color:white;">  
+                                      Copyright &copy; 2024, Space College. Designed by Adesewa  
+                                  </p>  
+                              </div>  
+                          </div>  
+                      </div>   
+                  </div>  
+              </div>
+          </div>
+          <script type="module" src="list-students.js"></script>
+      <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    </body>
+  </html>
+</html>

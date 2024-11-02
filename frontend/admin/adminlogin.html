@@ -1,0 +1,35 @@
+<!DOCTYPE html>  
+<html lang="en">  
+  <head>  
+    <meta charset="UTF-8" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+    <link rel="stylesheet" href="adminlogin.css" />  
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />  
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.css" />  
+    <title>Space College</title>  
+  </head>  
+  <body>  
+    <div class="login-box">
+      <h2>Login</h2>
+      <form id="loginForm" method="post"> 
+        <div id="message-container">
+          <p id="message" style="color: aliceblue;"></p>
+      </div>
+        <div class="user-box">
+          <input type="email" name="email" id="email" required="">
+          <label>Email</label>
+        </div>
+        <div class="user-box">
+          <input type="password" name="password" id="password" required="">
+          <label>Password</label>
+        </div>
+        <div class="links">
+          <a href="#">Forgot Password</a>
+          <a href="adminregister.html">Register</a>
+        </div>
+        <button type="submit">LOGIN</button>
+      </form>
+    </div>
+    <script type="module" src="adminlogin.js"></script>  
+  </body>  
+</html>

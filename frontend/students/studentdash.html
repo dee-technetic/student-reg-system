@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="studentdash.css" />
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css" />
+    <title>Space College</title>
+  </head>
+  <html>
+    <body>
+      <div id="viewport">
+        <!-- Sidebar -->
+        <div id="sidebar">
+          <header>
+            <a href="#">Space College</a>
+          </header>
+          <ul class="nav">
+            <li>
+              <a href="studentdash.html">
+                <i class="fa fa-home"></i> Dashboard
+              </a>
+            </li>
+            <li>
+              <a href="../login.html">
+                <i class="fa fa-power-off"></i> logout
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Content -->
+        <div id="content">
+          <div class="container">
+            <div class="row">
+              <div
+                class="col-md-12 d-flex justify-content-space-between"
+                id="users"
+              >
+                <div>
+                  <h3 class="fw-bold">
+                    Welcome <span style="color: black;" id="student-name"></span>
+                  </h3>
+                  <h5 class="fw-bold">
+                    <i class="fa fa-envelope"></i>
+                    <span style="color: black;" id="student-email"></span>
+                  </h5>
+                  <p class="leade font-italic" style="color: #ec994f">
+                    "Remember,Our space college offers cutting-edge programs,
+                    state-of-the-art facilities, and a dedicated faculty to
+                    inspire the next generation of astronauts, scientists, and
+                    engineers."
+                  </p>
+                </div>
+                <div>
+                  <button class="btn btn-sm">
+                    <a href="student_profile.html"
+                      ><i class="fa fa-cogs"></i>Edit Profile</a
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="detail">
+            <h1>Student Details</h1>
+            <div class="student-details">
+              <dl>
+                <dt>FullName</dt>
+                <dd id="sd1">Student name</dd>
+                <dt>Age</dt>
+                <dd id="sd2">Student age</dd>
+                <dt>Course</dt>
+                <dd id="sd3">course chosen</dd>
+                <dt>Gender</dt>
+                <dd id="sd4">student gender</dd>
+                <dt>Email</dt>
+                <dd id="sd5">student email</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div class="footer2">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 widget">
+                <div class="widget-body">
+                  <p class="simplenav">
+                    <a href="studentdash.html">Dashboard</a>
+                    <a href="../login.html">Logout</a>
+                    <b><a href="../index.html">Home</a></b>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 widget">
+                <div class="widget-body">
+                  <p class="text-right" style="color: white">
+                    Copyright &copy; 2024, Space College. Designed by Adesewa
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script type="module" src="studentdash.js"></script>
+    </body>
+  </html>
+</html>

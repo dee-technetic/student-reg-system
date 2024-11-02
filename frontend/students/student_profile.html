@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="studentdash.css" />
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css" />
+    <title>Space College</title>
+  </head>
+  <html>
+    <body>
+      <div id="viewport">
+        <!-- Sidebar -->
+        <div id="sidebar">
+          <header>
+            <a href="#">Space College</a>
+          </header>
+          <ul class="nav">
+            <li>
+              <a href="studentdash.html">
+                <i class="fa fa-home"></i> Dashboard
+              </a>
+            </li>
+            <li>
+              <a href="../login.html"> <i class="fa fa-power-off"></i> logout </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Content -->
+        <div id="content">
+            <div class="container">  
+                <div class="card" style="border-radius: 15px;  ">  
+                    <div class="card-header text-center">  
+                        <h1>Update Student Details</h1>  
+                    </div>  
+                    <div id="message-container">
+                      <p id="message"></p>
+                  </div>
+                    <div class="card-body">  
+                      <form id="updateStudent">  
+                        <input type="hidden" id="userId" value="userId"> 
+                        <div class="form-group">  
+                            <label for="fullName">Full Name</label>  
+                            <input type="text" class="form-control" id="fullname" required>  
+                        </div>  
+                        <div class="form-group">  
+                            <label for="age">Age</label>  
+                            <input type="text" class="form-control" id="age" required>  
+                        </div>  
+                        <div class="form-group">  
+                            <label for="course">Course</label>  
+                            <select class="form-control" id="course-select" name="course" >  
+                                <option id="main-course"></option>  
+                            </select>    
+                        </div>  
+                        <div class="form-group">  
+                            <label for="gender">Gender</label>  
+                            <select class="form-control" id="gender" required>  
+                              <option id="main-gender" selected></option>  
+                                <option value="Female" selected>Female</option>  
+                                <option value="Male">Male</option>  
+                                <option value="Other">Other</option>  
+                            </select>  
+                        </div>  
+                        <div class="form-group">  
+                            <label for="email">Email</label>  
+                            <input type="email" class="form-control" id="email" required>  
+                        </div>  
+                        <button style="padding-right: 120px; padding-left: 120px; background: #ec994f;" type="submit" class="btn btn-md btn-block mt-3">Update Details</button>  
+                    </form>
+                    </div>  
+                </div>  
+            </div>  
+        </div>
+        <div class="footer2">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 widget">
+                <div class="widget-body">
+                  <p class="simplenav">
+                    <a href="studentdash.html">Dashboard</a>
+                    <a href="../login.html">Logout</a>
+                    <b><a href="../index.html">Home</a></b>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 widget">
+                <div class="widget-body">
+                  <p class="text-right" style="color: white">
+                    Copyright &copy; 2024, Space College. Designed by Adesewa
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script type="module" src="student_profile.js"></script>
+      <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+     
+    </body>
+  </html>
+</html>
+
+
+
+
